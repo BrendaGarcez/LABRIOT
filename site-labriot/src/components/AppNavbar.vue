@@ -16,6 +16,5 @@ export default {
 <style scoped>
 nav {
   display: flex;
-  gap: 1rem;
 }
 </style>
