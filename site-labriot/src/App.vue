@@ -1,9 +1,13 @@
 <template>
   <div id="app">
     <header>
-      <h1>Meu Projeto Vue</h1>
+      <div class = "header-container">
+        <div class = "logo">
+          <img src = "./assets/logo.png" alt = "Logo">
+        </div>
+        <AppNavbar />
+      </div>
     </header>
-    <AppNavbar />
     <main>
       <router-view />
     </main>
@@ -12,6 +16,7 @@
     </footer>
   </div>
 </template>
+
 
 <script>
 import AppNavbar from './components/AppNavbar.vue';
