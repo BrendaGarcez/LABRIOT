@@ -48,7 +48,14 @@
 </template>
 
 <script>
+import { Swiper, SwiperSlide } from "swiper/vue";
+import "swiper/swiper-bundle.css";
+
 export default {
   name: "HomePage",
+  components: {
+    Swiper,
+    SwiperSlide,
+  },
 };
 </script>

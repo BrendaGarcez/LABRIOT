@@ -18,11 +18,12 @@
           </div>
           <div class="footer-info">
               <p>© 2025 - Laboratório de Robótica e IoT</p>
-              <p>Email: contato@labriot.com | Telefone: (41) 1234-5678</p>
+              <p>Email: contato@labriot.com </p>
+              <p>| Telefone: (41) 1234-5678</p>
               <div class="social-media">
-                  <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
-                  <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
-                  <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+                  <a href="#"><i class="fab fa-facebook"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
               </div>
           </div>
       </div>
@@ -37,7 +38,7 @@
 
 <script>
 import AppNavbar from './components/AppNavbar.vue';
-
+import './assets/css/styles.css';
 export default {
   name: 'App',
   components: {
